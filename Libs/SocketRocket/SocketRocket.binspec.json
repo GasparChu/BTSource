@@ -1,0 +1,28 @@
+{
+  "mode": "binary",
+  "invades_xcodeproj": true,
+  "name": "SocketRocket",
+  "description": "SocketRocket",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "version": "0.5.1.5",
+  "public_headers": [
+    "SocketRocket.framework/Headers"
+  ],
+  "build_info": {
+    "source_path": "/Users/Shared/com.baidu.easybox/virtual-sources/39A6E16C8DF392DF7284B96DCE6B28F7",
+    "target": "static_framework"
+  },
+  "timestamp": "1573029399",
+  "products": [
+    "SocketRocket.framework"
+  ],
+  "repo": {
+    "url": "ssh://icode.baidu.com:8235/baidu/searchbox-ios/socketrocket",
+    "commit": "2e2d213e71a3788b4570303e2eb691d23b11ba03"
+  },
+  "accessories": {
+    "package_url": "http://tekes.baidu-int.com:8181/service/rest/v1/components?repository=ios-release/release/SocketRocket/0.5.1.5/binary.default.zip"
+  }
+}
