@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BTSource"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of BaiDuRTC."
   spec.description  = <<-DESC
                         BaiDuRTC
@@ -13,8 +13,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/GasparChu/BTSource.git", :tag => spec.version.to_s }
   # spec.source_files  = "BaiDuRTC", "BDRTC/Libs/*"
 
-  spec.framework  = "VideoToolbox"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks  = "VideoToolbox", "GLKit"
 
   spec.library   = "c++"
   # spec.libraries = "iconv", "xml2"
