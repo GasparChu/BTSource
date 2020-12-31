@@ -1,0 +1,6 @@
+framework module BaiduRtcRoom {
+  umbrella header "BaiduRtcRoom.h"
+
+  export *
+  module * { export * }
+}
